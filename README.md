@@ -1,15 +1,22 @@
-# simple-java-maven-app
-
-This repository is for the
-[Build a Java app with Maven](https://jenkins.io/doc/tutorials/build-a-java-app-with-maven/)
-tutorial in the [Jenkins User Documentation](https://jenkins.io/doc/).
-
-The repository contains a simple Java application which outputs the string
-"Hello world!" and is accompanied by a couple of unit tests to check that the
-main application works as expected. The results of these tests are saved to a
-JUnit XML report.
-
-The `jenkins` directory contains an example of the `Jenkinsfile` (i.e. Pipeline)
-you'll be creating yourself during the tutorial and the `scripts` subdirectory
-contains a shell script with commands that are executed when Jenkins processes
-the "Deliver" stage of your Pipeline.
+1.	SmartbiPrestoServer
+服务扩展包，主要是提供catalog的添加删除http
+2.	SmartbiPrestoCommon
+公共类，自定义连接器扩展包共用类
+3.	SmartbiPrestoCommonJdbc
+通用jdbc连接器扩展包，若数据库有特殊情况或者兼容问题则新建对应jdbc连接器扩展包
+4.	SmartbiPrestoClickHouseJdbc
+Clickhouse jdbc连接器扩展包。
+5.	SmartbiPrestoImpalaJdbc
+Impala jdbc连接器扩展包
+6.	SmartbiPrestoInformixJdbc
+Informix jdbc连接器扩展包
+7.	SmartbiPrestoMysqlJdbc
+Mysql jdbc连接器扩展包
+8.	SmartbiPrestoPostgresqlJdbc
+Postgresql jdbc连接器扩展包
+9.	SmartbiPrestoSparkSqlJdbc
+Sparksql jdbc连接器扩展包
+10.	SmartbiPrestoTeradataJdbc
+Teradata jdbc连接器扩展包
+11.	SmartbiPrestoHadoopHiveJdbc
+Hive与星环 jdbc连接器扩展包
